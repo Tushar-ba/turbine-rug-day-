@@ -1,4 +1,11 @@
 export type WbaPrereq = {
+  "address": string;
+  "metadata": {
+    "name": "wba_prereq",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description"?: string;
+  };
   "version": "0.1.0",
   "name": "wba_prereq",
   "instructions": [
@@ -76,6 +83,12 @@ export type WbaPrereq = {
 }
 
 export const IDL: WbaPrereq = {
+  "address": "HC2oqz2p6DEWfrahenqdq2moUcga9c9biqRBcdK3XKU1",
+  "metadata": {
+    "name": "wba_prereq",
+    "version": "0.1.0",
+    "spec": "0.1.0"
+  },
   "version": "0.1.0",
   "name": "wba_prereq",
   "instructions": [
